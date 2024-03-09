@@ -7,6 +7,7 @@ import {applicationConfigMock} from './shared/application-config/application-con
     styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+    readonly title = 'Angular-learnjs-150224';
     readonly applicationConfigMock = applicationConfigMock;
 
     switchTemplate = false;
